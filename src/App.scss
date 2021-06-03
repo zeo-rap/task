@@ -1,0 +1,58 @@
+.app {
+  max-width: 450px;
+  margin: auto;
+  .MuiInput-underline:before {
+    border: 0;
+  }
+  .header__languageSelect {
+    margin-left: 10px;
+  }
+  .section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .MuiFormLabel-root.Mui-focused {
+      color: #33ad88;
+    }
+    .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+      border-color: #33ad88;
+      color: #33ad88;
+    }
+    .MuiOutlinedInput-root {
+      border-radius: 30px;
+    }
+    .section__walletLogo {
+      width: 200px;
+      margin: 40px 0;
+    }
+    .section__input {
+      width: 96%;
+      margin: 10px 0;
+      .MuiOutlinedInput-root {
+        padding-left: 20px;
+      }
+    }
+    .section__smsButton {
+      width: 10px;
+      font-size: 12px;
+      font-weight: 500;
+      border-radius: 16px;
+      color: #33ad88;
+      text-transform: none;
+      -webkit-box-shadow: 2px 3px 10px -5px #000000;
+      box-shadow: 2px 3px 10px -5px #000000;
+    }
+    .section__button {
+      background-color: #33ad88;
+      border-radius: 30px;
+      width: 96%;
+      margin: 10px 0;
+      height: 50px;
+      color: white;
+      font-weight: 600;
+      -webkit-box-shadow: 2px 3px 10px -5px #000000;
+      box-shadow: 2px 3px 10px -5px #000000;
+    }
+  }
+}
